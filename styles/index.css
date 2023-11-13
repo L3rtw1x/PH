@@ -95,6 +95,31 @@ menu {
     width: 100%;
     margin-top: 7px;
 }
+
+.titlechat {
+    width: 158px;
+    height: 29px;
+    flex-shrink: 0;
+}
+
+.content-search {
+    width: 359px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.img-search {
+    width: 13.847px;
+    height: 17px;
+    flex-shrink: 0;
+}
+
+.search {
+    width: 13.847px;
+    height: 17px;
+    flex-shrink: 0;
+}
+
 @media screen and (min-width: 500px) {
     .btn-addnews {
         width: 450px;
