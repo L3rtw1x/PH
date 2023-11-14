@@ -125,3 +125,7 @@ menu {
     margin-left: 650px;
     display: flex;
 }
+
+.searchtext {
+    margin-left: 155px;
+}
