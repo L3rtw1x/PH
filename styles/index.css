@@ -31,8 +31,9 @@ menu {
 }
 
 .content-p {
-    padding: 125px 25px 125px 25px;
+    padding: 125px 25px 25px 25px;
     box-sizing: border-box;
+    margin-bottom: 105px;
 }
 
 .icon-r {
@@ -56,18 +57,6 @@ menu {
     align-items: center;
 }
 
-.btn-addnews {
-    padding: 7px 0px;
-    border-radius: 20px;
-    border: 1px solid #000;
-    color: #474747;
-    text-align: center;
-    font-family: "Just Another Hand", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
 .newscart {
     border-radius: 10px;
     border: 1px solid #000;
@@ -96,34 +85,43 @@ menu {
     margin-top: 7px;
 }
 
+
 .titlechat {
     width: 158px;
     height: 29px;
     flex-shrink: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .content-search {
     width: 359px;
     height: 24px;
     flex-shrink: 0;
+    margin: 9px auto 5px -146px;
+    border-radius: 10px;
+    border: 1px solid gray;
 }
 
-.img-search {
-    width: 13.847px;
-    height: 17px;
-    flex-shrink: 0;
+.text {
+    margin: 2px 155px 0 150px;
+    color: gray;
 }
 
-.search {
-    width: 13.847px;
-    height: 17px;
-    flex-shrink: 0;
+.chat {
+    border-radius: 10px;
+    border: 1px solid gray ;
+    margin: 5px auto auto auto;
+    padding: 6px;
+    width: 860px;
+    display: flex;
 }
 
-@media screen and (min-width: 500px) {
-    .btn-addnews {
-        width: 450px;
-        margin: 0px auto;
-    }
+.chattext {
+    margin-left: 5px;
+}
 
+.timetext {
+    margin-left: 650px;
+    display: flex;
 }
